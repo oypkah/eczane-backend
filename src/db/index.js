@@ -1,5 +1,6 @@
 const {
   getAllLocations,
+  getAllLocationsAdmin,
   insertLocation,
   updateLocation,
   deleteLocation,
@@ -11,14 +12,15 @@ const {
   insertSubtype,
   updateSubtype,
   deleteSubtype,
+  validateLocation,
 } = require('./queries')
 
 module.exports = {
   getAllLocations,
+  getAllLocationsAdmin,
   insertLocation,
   updateLocation,
   deleteLocation,
-  getAllTypes,
   getAllTypes,
   insertType,
   updateType,
@@ -27,4 +29,5 @@ module.exports = {
   insertSubtype,
   updateSubtype,
   deleteSubtype,
+  validateLocation,
 }
